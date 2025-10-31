@@ -75,7 +75,7 @@ export async function handleOAuthCallback(req, res) {
 
     res.send(renderLayout({ userEmail, content }));
   } catch (error) {
-    console.error("❌ Error en autenticación:", error);
+    console.error("Error en autenticación:", error);
     res.status(500).send("Ocurrió un error durante la autenticación.");
   }
 }

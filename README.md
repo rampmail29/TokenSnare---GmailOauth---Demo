@@ -54,7 +54,7 @@ npm install
 3. Crea un archivo .env con tus credenciales de google: 
 GOOGLE_CLIENT_ID=tu_cliente_id
 GOOGLE_CLIENT_SECRET=tu_secreto
-REDIRECT_URI=http://localhost:3000/oauth2callback
+REDIRECT_URI=http://localhost:PORT/oauth2callback
 
 4. Ejecuta el servidor:
 

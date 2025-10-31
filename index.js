@@ -2,7 +2,7 @@ import app from "./app.js";
 import open from "open";
 import session from "express-session";
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 1729;
 
 app.use(
   session({
@@ -27,7 +27,7 @@ function showBanner() {
 ║                                                              ║
 ║    TokenSnare                                                ║
 ║                                                              ║
-║    Catch the token. Reveal the access. Teach the threat      ║
+║    Catch the token. Reveal the access. Teach the threat.     ║
 ║    by Ricardo Medina                                         ║
 ║                                                              ║
 ╚══════════════════════════════════════════════════════════════╝
